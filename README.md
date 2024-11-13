@@ -1,2 +1,2 @@
 # Temperature Converter
-#An application that converter temperature in celsisu,Farenheit and Kelvin 
+#An application that converter temperature in celsius,Farenheit and Kelvin 
