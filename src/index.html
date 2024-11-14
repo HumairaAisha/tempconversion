@@ -15,21 +15,24 @@
       <!--celsius section-->
       <div class="w-50 font-bold w-full max-w-md p-4 flex justify-between items-center">
          <label for="celsius" class="text-lg"> Celsius: </label> 
-         <input class="p-1  bg-cyan-200 text-green-950 rounded" type="number" name="celsius" id="celsius" placeholder="Enter Temperature">
+         <input onchange="calTemp(event)"
+          class="p-1  bg-cyan-200 text-green-950 rounded" type="number" name="celsius" id="celsius" placeholder="Enter Temperature">
       </div>
       <!--Farenheit-->
       <div class="w-50 font-bold w-full max-w-md p-4 flex justify-between items-center">
          <label for="farenheit" class="text-lg"> Farenheit: </label>
-         <input class="p-1 bg-cyan-200 border-cyan-300 text-green-950 rounded" type="number" name="farenheit" id="farenheit" placeholder="Enter Temperature">
+         <input onchange="calTemp(event)"
+          class="p-1 bg-cyan-200 border-cyan-300 text-green-950 rounded" type="number" name="farenheit" id="farenheit" placeholder="Enter Temperature">
       </div>
       <!--Kelvin-->
       <div class="w-50 font-bold w-full max-w-md p-4 flex justify-between items-center">
          <label for="kelvin" class="text-lg"> Kelvin:</label>
-         <input class="p-1 bg-cyan-200 text-green-950 rounded" type="number" name="kelvin" id="kelvin" placeholder="Enter Temperature">
+         <input onchange="calTemp(event)"
+          class="p-1 bg-cyan-200 text-green-950 rounded" type="number" name="kelvin" id="kelvin" placeholder="Enter Temperature">
       </div>
-       
+       <button class="text-center text-3xl bg-green-900 text-cyan-300 rounded border-5" id="button">Enter</button>
    </div>
  
-   
+<script src="script.js"></script> 
 </body>
 </html>
