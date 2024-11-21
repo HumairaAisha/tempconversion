@@ -10,10 +10,11 @@
 <body>
    
       
-   <div class="bg-cyan-100 min-h-screen w-full flex flex-col justify-center items-center drop-shadow-3xl text-cyan-800 font-mono">
-      <h1 class="text-3xl font-bold mb-4">TEMPERATURE CONVERTOR</h1>
+<div class="bg-cyan-100 min-h-screen w-full flex flex-col justify-center items-center drop-shadow-3xl text-cyan-800 font-mono">
+      <div class="container flex flex-col box-border h-[400px] w-[450px] border-[#A1A1A9] rounded-lg shadow-lg shadow-cyan-400">
+      <h1 class="text-3xl font-bold mb-4 text-center p-5">TEMPERATURE CONVERTOR</h1>
       <!--celsius section-->
-      <div class="w-50 font-bold w-full max-w-md p-4 flex justify-between items-center">
+      <div class="w-50 font-bold w-full max-w-md p-3 flex justify-between items-center">
          <label for="celsius" class="text-lg"> Celsius: </label> 
          <input onchange="calTemp(event)"
           class="p-1  bg-cyan-200 text-green-950 rounded" type="number" name="celsius" id="celsius" placeholder="Enter Temperature">
@@ -29,10 +30,8 @@
          <label for="kelvin" class="text-lg"> Kelvin:</label>
          <input onchange="calTemp(event)"
           class="p-1 bg-cyan-200 text-green-950 rounded" type="number" name="kelvin" id="kelvin" placeholder="Enter Temperature">
-      </div>
-       <button class="text-center text-3xl bg-green-900 text-cyan-300 rounded border-5" id="button">Enter</button>
-   </div>
- 
+      
+</div> 
 <script src="script.js"></script> 
 </body>
 </html>
